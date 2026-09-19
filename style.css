@@ -268,6 +268,31 @@ hr.rule { border: none; border-top: 1px solid var(--line); margin: 56px 0; }
 .engagement #like-btn:hover { background: var(--ink); border-color: var(--ink); color: var(--paper); }
 #disqus_thread { margin-top: 34px; }
 
+.share-row {
+  display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+  margin-top: 16px;
+}
+.share-btn {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: transparent;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  padding: 8px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+.share-btn:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
 /* ---- Index list (fallback) ---- */
 .entry-list { margin-top: 8px; }
 .entry-row { display: grid; grid-template-columns: 108px 1fr; gap: 22px; padding: 26px 0; border-top: 1px solid var(--line); }
